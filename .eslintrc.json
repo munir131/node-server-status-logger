@@ -1,0 +1,9 @@
+{
+    "plugins": ["node"],
+    "extends": ["standard", "plugin:node/recommended"],
+    "rules":{
+        "indent": ["warn", 4],
+        "node/exports-style": ["error", "module.exports"],
+        "semi": ["warn", "always"]
+    }
+}

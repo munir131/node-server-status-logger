@@ -1,0 +1,29 @@
+{
+  "name": "server-status-logger",
+  "version": "1.0.0",
+  "description": "Makes an entry in log file if server returns a 5XX status",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishshakya/node-server-status-logger.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Ashish Shakya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishshakya/node-server-status-logger/issues"
+  },
+  "homepage": "https://github.com/ashishshakya/node-server-status-logger#readme"
+}
